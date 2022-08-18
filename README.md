@@ -1,2 +1,2 @@
 # March-Project
-RPG video game
+A Mount and Blade like video game
