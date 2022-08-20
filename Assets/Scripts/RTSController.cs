@@ -163,7 +163,7 @@ public class RTSController : MonoBehaviour
         }
         
         
-        //more than 7 units --> two lines formation
+        //more than 6 units --> two lines formation
         
         else
         {
@@ -203,6 +203,8 @@ public class RTSController : MonoBehaviour
 
             unitMovement.targetPosition = _formationPositionsList[i];
         }
+
+        
         
     } 
 

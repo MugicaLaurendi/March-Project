@@ -20,7 +20,7 @@ public class UnitMovement : MonoBehaviour
    
     void Awake()
     {
-        targetPosition = unitTransform.position ;
+        StopMoving();
     }
 
 
@@ -63,5 +63,10 @@ public class UnitMovement : MonoBehaviour
         {
             spriteRenderer.flipX = true;
         }
+    }
+
+    public void StopMoving()
+    {
+        targetPosition = unitTransform.position ;
     }
 }
